@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculatorFragment">
+
+    <LinearLayout
+        android:id="@+id/strong_count_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Количество человек, пьющих крепкое: " />
+
+        <EditText
+            android:id="@+id/strong_persons_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/light_count_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/strong_count_layout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Количество человек, пьющих некрепкое: " />
+
+        <EditText
+            android:id="@+id/light_persons_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/drinks_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:text="Напитки:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/light_count_layout" />
+
+    <CheckBox
+        android:id="@+id/beer_checkbox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/beer"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintEnd_toStartOf="@+id/cider_checkbox"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/drinks_label" />
+
+    <CheckBox
+        android:id="@+id/cider_checkbox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cider"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/beer_checkbox"
+        app:layout_constraintTop_toBottomOf="@+id/drinks_label" />
+
+    <CheckBox
+        android:id="@+id/wine_checkbox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/wine"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintEnd_toStartOf="@+id/sparkling_wine_checkbox"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/beer_checkbox" />
+
+    <CheckBox
+        android:id="@+id/sparkling_wine_checkbox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/sparkling_wine"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/wine_checkbox"
+        app:layout_constraintTop_toBottomOf="@+id/cider_checkbox" />
+
+    <CheckBox
+        android:id="@+id/whiskey_checkbox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/whiskey"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintEnd_toStartOf="@+id/cognac_checkbox"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wine_checkbox" />
+
+    <CheckBox
+        android:id="@+id/cognac_checkbox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cognac"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/whiskey_checkbox"
+        app:layout_constraintTop_toBottomOf="@+id/sparkling_wine_checkbox" />
+
+    <CheckBox
+        android:id="@+id/absinthe_checkbox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/absinthe"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintEnd_toStartOf="@+id/gin_checkbox"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/whiskey_checkbox" />
+
+    <CheckBox
+        android:id="@+id/gin_checkbox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/gin"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/absinthe_checkbox"
+        app:layout_constraintTop_toBottomOf="@+id/cognac_checkbox" />
+
+    <CheckBox
+        android:id="@+id/vodka_checkbox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/vodka"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintEnd_toStartOf="@+id/moonshine_checkbox"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/absinthe_checkbox" />
+
+    <CheckBox
+        android:id="@+id/moonshine_checkbox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/moonshine"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/vodka_checkbox"
+        app:layout_constraintTop_toBottomOf="@+id/gin_checkbox" />
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/other_strong_checkbox"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/other_strong"-->
+<!--        app:layout_constraintHorizontal_weight="1"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/other_light_checkbox"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/vodka_checkbox" />-->
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/other_light_checkbox"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/other_light"-->
+<!--        app:layout_constraintHorizontal_weight="1"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.5"-->
+<!--        app:layout_constraintStart_toEndOf="@+id/other_strong_checkbox"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/moonshine_checkbox" />-->
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate"
+        android:layout_margin="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Субботний дискуссионный клуб</string>
+    <string name="hymn_button">Гимн второй субботы</string>
+    <string name="acl_calc_button">Алкогольный калькулятор</string>
+    <string name="jokes_button">Анекдоты</string>
+
+    <string name="hymn">
+        Клянемся! И клятва отныне не сменится:\n
+        <b>Торжественно обещаем,</b>\n
+        Вторую субботу каждого месяца,\n
+        <b>Товарищи, мы - бухаем!</b>\n
+        Пусть небо с высот своих резко нисвергнится,\n
+        <b>Твёрдо, товарищи, знаем:</b>\n
+        Вторую субботу каждого месяца\n
+        <b>Мы неизбежно бухаем!</b>\n
+    </string>
+
+    <string name="beer">Пиво</string>
+    <string name="cider">Сидр</string>
+    <string name="wine">Вино</string>
+    <string name="sparkling_wine">Игристое вино</string>
+    <string name="vodka">Водка</string>
+    <string name="whiskey">Виски</string>
+    <string name="cognac">Коньяк</string>
+    <string name="absinthe">Абсент</string>
+    <string name="gin">Джин</string>
+    <string name="moonshine">Самогон</string>
+    <string name="other_strong">Другое крепкое</string>
+    <string name="other_light">Другое некрепкое</string>
+
+    <string name="calculate">Рассчитать</string>
+
+
+    <string name="not_implemented">Пока не готово :(</string>
+
+</resources>
