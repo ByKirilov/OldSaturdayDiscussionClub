@@ -8,7 +8,6 @@ import android.widget.Button
 import android.widget.CheckBox
 import android.widget.EditText
 import androidx.fragment.app.Fragment
-import com.byKirilov.saturdaydiscussionclub.DB.DrinkNames
 import kotlin.math.roundToInt
 
 class CalculatorFragment : Fragment(),

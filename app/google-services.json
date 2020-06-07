@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "123065205147",
+    "firebase_url": "https://saturday-discussion-club.firebaseio.com",
+    "project_id": "saturday-discussion-club",
+    "storage_bucket": "saturday-discussion-club.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123065205147:android:173af1972830c0a859a13e",
+        "android_client_info": {
+          "package_name": "com.byKirilov.saturdaydiscussionclub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123065205147-n8c6395a30190e75f8u69lcvhks0iub4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3cNqBv3uqwx6A0p3w7f8sfjUne0Hh6f8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123065205147-n8c6395a30190e75f8u69lcvhks0iub4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import androidx.fragment.app.Fragment
-import com.byKirilov.saturdaydiscussionclub.DB.DrinkNames
 
 /**
  * A simple [Fragment] subclass.

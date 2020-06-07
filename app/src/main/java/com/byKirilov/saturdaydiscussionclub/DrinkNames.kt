@@ -1,6 +1,4 @@
-package com.byKirilov.saturdaydiscussionclub.DB
-
-import com.byKirilov.saturdaydiscussionclub.R
+package com.byKirilov.saturdaydiscussionclub
 
 enum class DrinkNames(val value: String, val checkBoxId: Int, val displayValueId: Int) {
     BEER(

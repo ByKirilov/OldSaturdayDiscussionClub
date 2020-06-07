@@ -1,7 +1,5 @@
 package com.byKirilov.saturdaydiscussionclub
 
-import com.byKirilov.saturdaydiscussionclub.DB.DrinkNames
-
 class Drinks {
 
     companion object {
