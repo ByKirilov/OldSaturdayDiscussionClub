@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_main"
+        android:title="@string/main_page_button" />
+    <item
+        android:id="@+id/nav_hymn"
+        android:title="@string/hymn_button" />
+    <item
+        android:id="@+id/nav_alc_calc"
+        android:title="@string/acl_calc_button" />
+    <item
+        android:id="@+id/nav_jokes"
+        android:title="@string/jokes_button" />
+
+</menu>

@@ -37,6 +37,12 @@ class MainFragment : Fragment(), View.OnClickListener {
         return layout
     }
 
+    override fun onDestroy() {
+        super.onDestroy()
+
+        activity?.finish()
+    }
+
     fun setOnClickListener(layout: View){
         val hymnButton = layout.findViewById<Button>(R.id.hymn_button)
         hymnButton.setOnClickListener(this)

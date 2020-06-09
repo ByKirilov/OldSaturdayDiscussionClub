@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Субботний дискуссионный клуб</string>
+
+    <string name="main_page_button">Профиль</string>
     <string name="hymn_button">Гимн второй субботы</string>
     <string name="acl_calc_button">Алкогольный калькулятор</string>
     <string name="jokes_button">Анекдоты</string>
@@ -35,5 +37,8 @@
 
     <string name="club_key_hint">Введите ключ</string>
     <string name="submit_club_key_button">Ввести</string>
+    
+    <string name="nav_open_drawer">Open navigation Drawer</string>
+    <string name="nav_close_drawer">Close navigation Drawer</string>
 
 </resources>
