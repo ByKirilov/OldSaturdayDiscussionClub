@@ -33,4 +33,7 @@
 
     <string name="not_implemented">Пока не готово :(</string>
 
+    <string name="club_key_hint">Введите ключ</string>
+    <string name="submit_club_key_button">Ввести</string>
+
 </resources>
